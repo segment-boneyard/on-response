@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "publishConfig": {
     "registry": "https://registry.segment.io"
+  },
+  "dependencies": {
+    "s-request-summary": "1.0.0",
+    "s-response-summary": "1.0.0"
   }
 }
