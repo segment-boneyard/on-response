@@ -1,5 +1,5 @@
 {
-  "name": "on-response",
+  "name": "s-on-response",
   "version": "1.0.0",
   "publishConfig": {
     "registry": "https://registry.segment.io"
