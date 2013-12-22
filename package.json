@@ -1,6 +1,6 @@
 {
   "name": "on-response",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "request-summary": "1.0.0",
     "response-summary": "1.0.0"

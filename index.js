@@ -1,6 +1,6 @@
 
-var reqSummary = require('s-request-summary');
-var resSummary = require('s-response-summary');
+var reqSummary = require('request-summary');
+var resSummary = require('response-summary');
 
 /**
  * Expose `onResponse`.
