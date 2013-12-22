@@ -2,13 +2,11 @@
 var reqSummary = require('s-request-summary');
 var resSummary = require('s-response-summary');
 
-
 /**
  * Expose `onResponse`.
  */
 
 module.exports = onResponse;
-
 
 /**
  * Call back when the request has been processed.

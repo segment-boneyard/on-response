@@ -1,6 +1,6 @@
 # on-response
 
-    Call back when a response is delivered.
+  Call back when a request is finished.
 
 ## Example
 
@@ -8,11 +8,12 @@
 var onResponse = require('on-response');
 
 app.use(function (req, res, next) {
-    onResponse(req, res, function (err, summary) {
-        var time = summary.response.time;
-        console.log('X-Response-Time: ' + time + ' ms.');
-    });
-    next();
+  var start = Date.now();
+  onResponse(req, res, function (err) {
+    var duration = Date.now() - start;
+    console.log('request duration: ' + duration);
+  });
+  next();
 });
 ```
 
@@ -20,4 +21,19 @@ app.use(function (req, res, next) {
 
 ### onResponse(req, res, callback)
 
-    Call back when the response is delivered.
+  Call back when the request is finished.
+
+## License
+
+```
+WWWWWW||WWWWWW
+ W W W||W W W
+      ||
+    ( OO )__________
+     /  |           \
+    /o o|    MIT     \
+    \___/||_||__||_|| *
+         || ||  || ||
+        _||_|| _||_||
+       (__|__|(__|__|
+```

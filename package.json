@@ -1,11 +1,8 @@
 {
-  "name": "s-on-response",
+  "name": "on-response",
   "version": "1.0.0",
-  "publishConfig": {
-    "registry": "https://registry.segment.io"
-  },
   "dependencies": {
-    "s-request-summary": "1.0.0",
-    "s-response-summary": "1.0.0"
+    "request-summary": "1.0.0",
+    "response-summary": "1.0.0"
   }
 }
