@@ -1,6 +1,6 @@
 # on-response
 
-  Call back when a request is finished.
+  Call back when an [express](https://github.com/visionmedia/express) request is finished.
 
 ## Example
 
